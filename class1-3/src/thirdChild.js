@@ -1,8 +1,9 @@
+import Button from './button'
 function ThirdChild(){
     return(
         <div>
 
-        <button>Submit</button>
+        <Button color="green" title="Learn HTML"/>
         </div>
     )
 }
