@@ -3,8 +3,8 @@ function Counter(props){
     console.log("in counter from parent",props)
     return(
     <div>
-        <Button data2={props.data}/>
-       <Button data3={props.data1}/>
+        <Button data2={props.sampleData}/>
+       <Button data3={props.sampleData1}/>
        </div>
     )
 }

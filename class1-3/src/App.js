@@ -4,7 +4,8 @@
 // import {Footer} from './components/header'
 // import Parent from './Parent'
 // import Button from './button1'
-import Counter from './counter'
+// import Counter from './counter'
+import Counter from './counter1'
 
 // let test= "this ";
 let sampleData = {
@@ -28,7 +29,8 @@ function App() {
   {/* <p> <Heder/></p> */}
   {/* <Footer /> */}
 {/* <Parent /> */}
-<Counter data={sampleData} data1={sampleData1}  />
+{/* <Counter sampleData={sampleData} sampleData1={sampleData1}  /> */}
+<Counter />
 
 
 
