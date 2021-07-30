@@ -1,8 +1,20 @@
-function StudentList(){
-    return(
-        <div>
+function StudentList({student,index,deleteHandler}) {
+    // console.log("student as props", props)
 
-        </div>
+
+    return (
+        <tr>
+            <td>{index}</td>
+            <td>{student.name}</td>
+            <td>{student.batch}</td>
+            <td>{student.roll}</td>
+            <td>{student.sclass}</td>
+            <td>
+                <button onClick={()=>deleteHandler(index)}>delete</button>
+            </td>
+
+
+        </tr>
     )
 }
 export default StudentList;
