@@ -1,23 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+// import { useState } from 'react'
+import FormHandling from './formHandling'
 
 function App() {
+
+  // const [students, setStudents] = useState([
+  //   {
+  //     name: "zahid",
+  //     batch: "batch1",
+  //     roll: "16777",
+  //     sclass: "web"
+  //   },
+  //   {
+  //     name: "zahid2",
+  //     batch: "batch12",
+  //     roll: "167772",
+  //     sclass: "web2"
+  //   },
+  //   {
+  //     name: "zahid3",
+  //     batch: "batch13",
+  //     roll: "167773",
+  //     sclass: "web3"
+  //   }
+  // ])
+  // console.log("sudents in state", students)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormHandling />
+
+  {/* //     <table>
+  //       <tr>
+  //         <th>No.</th>
+  //         <th>Name</th>
+  //         <th>Batch</th>
+  //         <th>Roll</th>
+  //         <th>Class</th>
+  //       </tr>
+
+  //       {students.map((student,index) => { */}
+  {/* //         return (
+  //           <tr>
+  //             <td>{index+1}</td>
+  //             <td>{student.name}</td>
+  //             <td>{student.batch}</td>
+  //             <td>{student.roll}</td>
+  //             <td>{student.sclass}</td>
+
+  //           </tr>
+  //         )
+  //       })
+  //       } */}
+       
+  {/* //     </table> */}
+
     </div>
   );
 }
