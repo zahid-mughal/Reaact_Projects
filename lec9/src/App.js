@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 // import MethidinClass from './components/lifeCycleMethodinClass'
 // import MethodinHooks from './components/lifeCycleMethodinHooks'
-import Dashboard from './components/Dashboard/dashboard'
+// import Dashboard from './components/Dashboard/dashboard'
+import Product from './components/product/product'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       {/* <MethidinClass /> */}
       {/* <MethodinHooks /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Product />
     </div>
   );
 }
