@@ -1,0 +1,15 @@
+{
+  "name": "node_class01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "sfa",
+    "start": "node server.js"
+  },
+  "author": "zahid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

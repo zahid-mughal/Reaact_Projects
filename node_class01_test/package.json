@@ -1,0 +1,21 @@
+{
+  "name": "node_class01_test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gi"
+  },
+  "keywords": [
+    "g"
+  ],
+  "author": "zahid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
