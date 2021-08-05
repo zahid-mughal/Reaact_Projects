@@ -13,6 +13,7 @@ const fetchFollowers = async ()=>{
     try{
         setLoading(true);
         let res= await axios.get(`${github}/users/naveed-rana/followers`)
+        // let res= await axios.get("http://localhost:5000/")
         console.log("follower",res.data)
         setFolowers(res.data);
 
@@ -29,7 +30,8 @@ const fetchFollowers = async ()=>{
         try {
 
             setLoading(true);
-            let res = await axios.get("https://api.github.com/users/zahid-mughal");
+            // let res = await axios.get("https://api.github.com/users/zahid-mughal");
+            let res = await axios.get("http://localhost:5000/login")
             console.log("res", res.data);
             setUser(res.data)
 
@@ -44,6 +46,7 @@ const fetchFollowers = async ()=>{
     }
     useEffect(() => {
         fetchGithubUser();
+        // fetchFollowers();
     }, []);
 
 
