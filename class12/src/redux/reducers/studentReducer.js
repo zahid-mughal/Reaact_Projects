@@ -1,3 +1,4 @@
+import {ADD_STUDENT} from '../constants/types'
 
 let initialState = {
     name: "zahid",
@@ -9,7 +10,7 @@ let initialState = {
 
 function studentReducer(state = initialState, action) {
     switch (action.type) {
-        case "ADD_STUDENT":
+        case ADD_STUDENT:
             console.log("data in reducer from action" ,action.payload)
             //work will be done here
             //it is object return old state and change in name in old state and new data with action 
